@@ -1,8 +1,8 @@
-# Loupe
+# MiniPlusZoom
 
 **A freeze-and-zoom inspection tool for the Miyoo Mini Plus (Onion OS).**
 
-Loupe pauses your game and hands you a magnifying glass. Press one button combo, the game freezes, and you get a clean 5x zoom you can pan around with the D-pad. Press it again and the game resumes exactly where it left off — no save states touched, no settings changed, nothing modified.
+MiniPlusZoom pauses your game and hands you a magnifying glass. Press one button combo, the game freezes, and you get a clean 5x zoom you can pan around with the D-pad. Press it again and the game resumes exactly where it left off — no save states touched, no settings changed, nothing modified.
 
 Built for looking closely at pixel art, because sprite artists from 1994 deserve it.
 
@@ -16,7 +16,7 @@ Built for looking closely at pixel art, because sprite artists from 1994 deserve
 
 ## How it works
 
-Loupe runs as a tiny background daemon (~0% CPU while idle). When you trigger it, it:
+MiniPlusZoom runs as a tiny background daemon (~0% CPU while idle). When you trigger it, it:
 
 1. Pauses the emulator process (SIGSTOP) so the screen stops redrawing
 2. Snapshots the framebuffer (`/dev/fb0`)
